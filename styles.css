@@ -138,3 +138,50 @@ body {
   height: auto;
   margin: 10px;
 }
+
+/* CONTACT FORM */
+.container .form-group {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.button {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+/* form {
+  text-align: left;
+  margin: 0 auto;
+  color: white;
+} */
+
+/* .form-background {
+  padding: 10px;
+  background-color: #a3320b;
+  width: 50%;
+}
+
+.colour-muted {
+  color: rgb(177, 173, 173);
+}
+
+.button {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.colour-button {
+  color: white;
+  background-color: green;
+  border: none;
+}
+
+.colour-button:hover {
+  color: black;
+  background-color: darkgreen;
+} */
