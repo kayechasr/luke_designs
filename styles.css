@@ -16,16 +16,17 @@ body {
   padding: 10px;
   margin-left: 50px;
 }
+@media (max-width: 768px) {
+  .logo img {
+    margin-left: 0;
+  }
+}
 
 .menu {
   font-size: 110%;
   letter-spacing: 3px;
   list-style: none;
   margin-right: 50px;
-
-  /* Used Flex instead of float to stop the menu order being flipped */
-  display: flex;
-  justify-content: flex-end;
 }
 
 .logo,
@@ -60,6 +61,23 @@ body {
   width: 200%;
   height: auto;
   margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .col-lg-3 .intro-text {
+    margin-top: 60px;
+    width: 360px;
+    text-align: center;
+  }
+
+  .col-lg-3 .call-to-action {
+    margin-left: 0;
+  }
 }
 
 /* INTRO TEXT */
