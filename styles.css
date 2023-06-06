@@ -22,6 +22,10 @@ body {
   letter-spacing: 3px;
   list-style: none;
   margin-right: 50px;
+
+  /* Used Flex instead of float to stop the menu order being flipped */
+  display: flex;
+  justify-content: flex-end;
 }
 
 .logo,
