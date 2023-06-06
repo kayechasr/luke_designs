@@ -16,11 +16,6 @@ body {
   padding: 10px;
   margin-left: 50px;
 }
-@media (max-width: 768px) {
-  .logo img {
-    margin-left: 0;
-  }
-}
 
 .menu {
   font-size: 110%;
@@ -62,12 +57,6 @@ body {
   height: auto;
   margin-top: 0px;
 }
-
-@media (max-width: 768px) {
-  .hero-image {
-    width: 100%;
-    height: auto;
-  }
 
   .col-lg-3 .intro-text {
     margin-top: 60px;
