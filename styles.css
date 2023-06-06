@@ -152,16 +152,10 @@ body {
   margin-right: 10px;
 }
 
-/* form {
+form {
   text-align: left;
   margin: 0 auto;
   color: white;
-} */
-
-/* .form-background {
-  padding: 10px;
-  background-color: #a3320b;
-  width: 50%;
 }
 
 .colour-muted {
@@ -184,4 +178,4 @@ body {
 .colour-button:hover {
   color: black;
   background-color: darkgreen;
-} */
+}
