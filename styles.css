@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+/* NAVIGATION BAR */
+.logo img {
+  width: 170px;
+  float: left;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.menu {
+  font-size: 110%;
+  letter-spacing: 3px;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.logo,
+.menu {
+  line-height: 75px;
+}
+
+.menu li {
+  float: right;
+  margin-left: 30px;
+}
+
+.menu a {
+  color: #a3320b;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  color: white;
+  border-bottom: 1px solid #a3320b;
+}
+
+.menu a.active {
+  color: grey;
+  pointer-events: none;
+}
+
+/*HERO IMAGE */
+
+.hero-image {
+  width: 200%;
+  height: auto;
+  margin-top: 0px;
+}
+
+/* INTRO TEXT */
+
+.intro-text {
+  background-color: rgba(163, 50, 11, 0.8);
+  color: #fff;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 30px;
+  text-transform: uppercase;
+  width: 400px;
+  margin-top: 240px;
+}
+
+.call-to-action {
+  background-color: green;
+  border-radius: 40px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px;
+  margin-left: 70px;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.call-to-action:hover {
+  color: black;
+  background-color: rgb(6, 70, 6);
+}
