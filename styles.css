@@ -179,3 +179,9 @@ form {
   color: black;
   background-color: darkgreen;
 }
+
+.form-background {
+  padding: 10px;
+  background-color: #a3320b;
+  width: 50%;
+}
