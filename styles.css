@@ -133,10 +133,10 @@ body {
 }
 
 /* MY WORK */
-.col-sm-4 .gallery {
+.gallery {
   width: 100%;
   height: auto;
-  margin: 10px;
+  margin-top: 20px;
 }
 
 /* CONTACT FORM */
@@ -205,7 +205,7 @@ form {
     margin-bottom: 20px;
     line-height: 15px;
     font-size: small;
-    margin-right: 40px;
+    margin-right: 30px;
     text-align: center;
     padding-top: 10px;
   }
@@ -248,5 +248,12 @@ form {
 
   .col-lg p {
     padding: 0;
+  }
+}
+
+/* MY WORK */
+@media (width <= 943px) {
+  .gallery {
+    padding: 5px;
   }
 }
