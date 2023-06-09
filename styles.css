@@ -95,7 +95,7 @@ body {
 /* ABOUT ME*/
 
 .artist_details {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .artist {
@@ -189,7 +189,7 @@ form {
 /* ALL MEDIA QUERIES */
 
 /* LOGO */
-@media (width <= 943px) {
+@media (max-width: 943px) {
   .logo img {
     width: 130px;
     height: auto;
@@ -199,7 +199,7 @@ form {
 }
 
 /* NAVIGATION - MENU */
-@media (width <= 943px) {
+@media (max-width: 943px) {
   .menu {
     clear: left;
     margin-bottom: 20px;
@@ -212,7 +212,7 @@ form {
 }
 
 /* HERO IMAGE & TEXT */
-@media (width <= 943px) {
+@media (max-width: 943px) {
   .hero-image {
     width: 100%;
     height: auto;
@@ -228,5 +228,25 @@ form {
 
   .col-lg-3 .call-to-action {
     margin-left: 0;
+  }
+}
+
+/* ABOUT ME */
+
+@media (width <= 943px) {
+  .container {
+    padding: 20px;
+  }
+
+  .artist {
+    margin-left: 15px;
+  }
+
+  .col-lg .testimonial {
+    margin-left: 100px;
+  }
+
+  .col-lg p {
+    padding: 0;
   }
 }
