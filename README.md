@@ -1,4 +1,4 @@
-# Luke-Designs
+# Luke Designs
 Project - Website portfolio design for a digital illustrator
 
 <h1 align="center">Lukes's Portfolio Project</h1>
@@ -7,87 +7,143 @@ Project - Website portfolio design for a digital illustrator
 
 This is my milestone project for the L5 Web Development Diploma with Code Institute. This project will have an heavy focus on User Centric Front End Development.
 
-![](images/Device_Display.jpg)
-
 <h1 align="center">Table of Content</h1>
 
-## **Initial discussion:**
+# **Initial discussion**
 
 Luke is a close friend of mine with a talent in digital illustration who specialises in sports shoes (specially basketball) illustrations for marketing and advertising purposes. He has always been able to get projects through recommendations from former acquaintances, but these recommendations have now slowed down somewhat. He has relied on sending each client he has worked with an email with his past project attached but he understands that to reach new potential clients, he would need an online portfolio/presence to showcase his work.
 
 I will be building this website for him in this project.
 
-## **Target Audience:**
+# **Target Audience:**
 
-With Luke being an illustration mostly embedded within sports shoe design company’s marketing team; the demographic is straight forward.
+With Luke being an illustration mostly embedded within sports shoe design company’s marketing team; the demographic falls under two categories
 
 #### **Corporate clients - specifically their marketing teams**
 
 - Sport shoes companies -- To use his work for a marketing/advertisement campaign.
-- Design & Fashion houses -- To use his work to bring ideas and sketches to live.
+- Design & Fashion house/companies -- To use his work to bring their ideas and sketches to live.
 
 #### **Individual clients**
 
-- Collectors -- Since they cannot wear the rare collectable shoes due to their value, some collectors might find his work appealing as a one of a kind art piece especially if they end up selling the shoes on (sentimental value).
+- Shoe/Trainers Collectors -- Since they cannot wear the rare collectable shoes due to their value, some collectors might find his work appealing as a one of a kind art piece especially if they end up selling the shoes. These art work could work as both a sentimental value and maybe even advertising material before they sell these shoes.
 
-## **User Stories:**
+# **User Stories:**
 
-#### Client Goals
-- Have an online presence
+#### **Client Goals**
+
+My client goals are very clear. His requirement are as below:
+- Have an stronger online presence
 - Showcase his art-work and talent
 - Appear more professional to potential clients
 - Create opportunities for yet unknown clients to get in touch with him (forms)
 
-#### First Time Visitor Goals
+#### **First Time Visitor Goals**
+
+The aim for first time visitors are:
 - Visibility to his past work
-- Learn more about him as an artist/illustrator
+- Learn more about my client as an artist/illustrator
 - Learn more about his past clients/projects
 - Be able to reach out and contact him (Social media and forms)
 
-#### Returning Visitors
+#### **Returning Visitors**
 - See an updated gallery of new works/projects
+- To show his work to others in their circle and potential clients
 
- ## **Strategic Tradeoffs**
+ # **Strategic Tradeoffs**
 -   ASSIGNED FIGURES TBC
 
-## **Design**
+# **Design**
 
-### SiteMap
+## **Colour Scheme**
+Since a personal portfolio reflects the artist work; there are a varied amount of colour schemes that could be applied. Based on this, I spoke to my client and we settled on a team of colors to use.
 
-![](assets/readme/sitemap.png)
+I was able to establish his by using the 60/30/10 Colour Rule. I learnt this during my research for this project. Used this youtube tutorial to really understand this rule - https://www.youtube.com/watch?v=UWwNIMHFdW4
 
-#### Home Page
+As a result, we came to the decision to use the below colour scheme. We felt it would give his work the kind of profession/exclusive look he is looking for:
+
+<img src="assets/readme/colour_pallet.png" alt="Alt Text" width="500" height="auto" style= "max-width: 100%">
+
+
+60% - Black – Primary Colour
+
+30% - Orange – Secondary Colour
+
+10% - Green – Call to Action - CTA
+
+
+
+
+
+
+
+
+## **SiteMap**
+
+<img src="assets/readme/sitemap.png" alt="this is the website map" width="600" height="auto" style= "max-width: 100%">
+
+#### **Home Page**
 - A caption to tell what the page is about
 - An eye-catching hero image showcasing their best work
 
-#### About Me Page
+#### **About Me Page**
 - A bio about Luke and his background in digital illustration
-- A list of notable clients they've worked with in the past
 
-#### Testimonials Section
-- Reviews from previous clients highlighting their positive experiences working with Luke
+#### **Testimonials Section**
+- List and reviews from previous clients highlighting their positive experiences working with Luke
 
-#### Portfolio Page
+#### **Portfolio Page**
 - A grid of high-quality and colourful images showcasing Lukes illustrations of past projects
 
-#### Contact Page
+#### **Contact Page**
 - A form for potential clients to get in touch with Luke for inquiries or collaborations.
 
 ## **Wireframes**
 
 #### Initial Rough Sketches
-[Mobile Sketch](assets/readme/idea_sketch_mobile.jpg) & [Desktop Sketch](assets/readme/idea_sketch_desktop.jpg)
+
+[Desktop Sketch](assets/readme/idea_sketch_desktop.jpg)
+
+<img src="assets/readme/idea_sketch_desktop.jpg" alt="Hand drawn website sketch idea for desktop" width="500" height="auto" style= "max-width: 100%">
 
 
-#### Initial WireFrame -- Figma
+[Mobile Sketch](assets/readme/idea_sketch_mobile.jpg)
 
-[Plain Mobile Wireframe](assets/readme/initial_wireframe_mobile.png) and [View On Figma](https://www.figma.com/file/QqBoMPqXmHZZBYZqBhzg82/Portfolio-Design?type=design&node-id=0-1&t=nzqS6on2eDiHnOYp-0)
+<img src="assets/readme/idea_sketch_mobile.jpg" alt="Hand drawn website sketch idea for mobile" width="500" height="auto" style= "max-width: 100%">
 
-#### Plain Desktop Wireframe
-[Plain Desktop Wireframe](assets/readme/initial_wireframe_desktop.png) and [View On Figma](https://www.figma.com/file/QqBoMPqXmHZZBYZqBhzg82/Portfolio-Design?type=design&node-id=2-16&t=nzqS6on2eDiHnOYp-0)
 
-#### Detailed Wireframe -- Figma
-[Detailed Mobile Wireframe](assets/readme/detailed_wireframe_mobile.png) & [Detailed Desktop Wireframe](assets/readme/detailed_wireframe_desktop.png) and [View Both Figma](https://www.figma.com/file/QqBoMPqXmHZZBYZqBhzg82/Portfolio-Design?type=design&node-id=13-139&t=nzqS6on2eDiHnOYp-0)
+
+#### Initial WireFrame
+
+[Desktop Sketch](assets/readme/Initial_wireframe_desktop.png)
+
+<img src="assets/readme/Initial_wireframe_desktop.png" alt="basic website wireframe design for desktop" width="1000" height="auto" style= "max-width: 100%">
+
+[View On Figma](https://www.figma.com/file/QqBoMPqXmHZZBYZqBhzg82/Portfolio-Design?type=design&node-id=0-1&t=nzqS6on2eDiHnOYp-0)
+
+
+[Mobile Sketch](assets/readme/Initial_wireframe_mobile.png)
+
+<img src="assets/readme/Initial_wireframe_mobile.png" alt="basic website wireframe design for mobile" width="100" height="auto" style= "max-width: 100%">
+
+[View On Figma](https://www.figma.com/file/QqBoMPqXmHZZBYZqBhzg82/Portfolio-Design?type=design&node-id=0-1&t=nzqS6on2eDiHnOYp-0)
+
+
+#### Detailed Wireframe
+
+[Detailed Desktop Wireframe](assets/readme/Detailed_wireframe_desktop.png)
+
+<img src="assets/readme/Detailed_wireframe_desktop.png" alt="detailed website wireframe design for desktop" width="1000" height="auto" style= "max-width: 100%">
+
+[View On Figma](https://www.figma.com/file/QqBoMPqXmHZZBYZqBhzg82/Luke's-Portfolio-Design?type=design&node-id=13-139&t=ZQm7dB5a9jhGrsAP-0)
+
+
+[Detailed Mobile Wireframe](assets/readme/Detailed_wireframe_mobile.png)
+
+<img src="assets/readme/Detailed_wireframe_mobile.png" alt="Detailed website wireframe design for mobile" width="100" height="auto" style= "max-width: 100%">
+
+[View On Figma](https://www.figma.com/file/QqBoMPqXmHZZBYZqBhzg82/Luke's-Portfolio-Design?type=design&node-id=13-139&t=ZQm7dB5a9jhGrsAP-0)
+
 
 
 
