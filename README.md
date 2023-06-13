@@ -15,6 +15,7 @@ Luke is a close friend of mine with a talent in digital illustration who special
 
 I will be building this website for him in this project.
 
+
 # **Target Audience:**
 
 With Luke being an illustration mostly embedded within sports shoe design company’s marketing team; the demographic falls under two categories
@@ -53,6 +54,7 @@ The aim for first time visitors are:
  # **Strategic Tradeoffs**
 -   ASSIGNED FIGURES TBC
 
+
 # **Design**
 
 ## **Colour Scheme**
@@ -62,8 +64,7 @@ I was able to establish his by using the 60/30/10 Colour Rule. I learnt this dur
 
 As a result, we came to the decision to use the below colour scheme. We felt it would give his work the kind of profession/exclusive look he is looking for:
 
-<img src="assets/readme/colour_pallet.png" alt="Alt Text" width="500" height="auto" style= "max-width: 100%">
-
+<img src="assets/readme/colour_pallet.png" alt="colour pallet with there colours. Black, Orange and Green" width="500" height="auto" style= "max-width: 100%">
 
 60% - Black – Primary Colour
 
@@ -71,12 +72,40 @@ As a result, we came to the decision to use the below colour scheme. We felt it 
 
 10% - Green – Call to Action - CTA
 
+---
+
+## **Typography**
+
+To keep things simple. We decided to go for Roboto and San Serif as a back up text. I will be embedding this text from the Google Font server using Regular 400 and Bold 700 font style. The Roboto text is well known for it professionalism and simplicity whereas the San-serif text is a more safer option due to the fact that every computer had this text pre install so the website should be able to display correctly if the Roboto text is unavailable.
+
+<img src="assets/readme/Roboto.png" alt="image of the choosen typography - Roboto" width="700" height="auto" style= "max-width: 100%">
+
+---
 
 
+## **Images**
+
+Part of the prep for this project; I quickly realised acquiring images that fit my vision for this project was a time consuming one and the results were not satisfactory. To fix this issue, I decided to create my own set of images. This idea would be more efficient, hit the level for the kind of images I wanted to use for this project and remove any copy write issues now or in the near future.
+
+**All the images used on this project would be AI (Artificial Intelligent) Generated** by creating prompts in order to create an image (example below) using a platform called [Mid Journey](https://midjourney.com/). You can learn more about Mid Journey [here](https://en.wikipedia.org/wiki/Midjourney)
+
+**Midjourney prompts used are**
+
+"Artist Image" Prompt:
+- an african american man smiling with black hair, in the style of louis, light brown and emerald, celebrity and pop culture references, marble, distinct facial features, rim light, undulating lines, hyper-realistic, 8k --ar 1:1 --v 5 --s 250
 
 
+"My Work" Prompts:
+- an abstract print of a colorful basketball shoe, in the style of zbrush, dark & explosive, uhd image, flowing forms, homosexual themes, raw materials, photobashing --ar 7:4
+
+- a sneaker that is floating with colorful paint, in the style of mike campau, dark black and bronze, flowing forms, uhd image, jordan grimmer, homosexual themes, strong use of color --ar 7:4
+
+- a shoe with colorful splashed paint, in the style of dynamic energy flow, realistic hyper-detailed rendering, kodak aerochrome, dark black and bronze, rainbowcore, monumental forms, flowing forms --ar 7:4
+
+- a colorful shoe with bright sparks in it, in the style of mike campau, fluid washes of color, sculpted forms, dark bronze and dark black, hip hop aesthetics, verner panton, uhd image --ar 7:4
 
 
+---
 
 ## **SiteMap**
 
@@ -84,13 +113,13 @@ As a result, we came to the decision to use the below colour scheme. We felt it 
 
 #### **Home Page**
 - A caption to tell what the page is about
-- An eye-catching hero image showcasing their best work
+- An eye-catching hero image showcasing Lukes talent
 
 #### **About Me Page**
 - A bio about Luke and his background in digital illustration
 
 #### **Testimonials Section**
-- List and reviews from previous clients highlighting their positive experiences working with Luke
+- Reviews from previous clients highlighting their positive experiences working with Luke
 
 #### **Portfolio Page**
 - A grid of high-quality and colourful images showcasing Lukes illustrations of past projects
@@ -145,51 +174,33 @@ As a result, we came to the decision to use the below colour scheme. We felt it 
 [View On Figma](https://www.figma.com/file/QqBoMPqXmHZZBYZqBhzg82/Luke's-Portfolio-Design?type=design&node-id=13-139&t=ZQm7dB5a9jhGrsAP-0)
 
 
+# Technologies Used
 
-
-
-
-
-
-
-
-
-
-
-
-## Features
-
-- Responsive on all device sizes
-
-- Interactive elements
-
-## Technologies Used
-
-### Languages Used
+#### Languages Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-   - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-   - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. [Figma:](https://www.figma.com/)
+   - Based on the rough pen skectches, Figma was used to create the initial and detialed wireframes before coding start
+1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+   - Photoshop was used to create the Logo and to adjust image background and size
 1. [Google Fonts:](https://fonts.google.com/)
-   - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+   - Google fonts has been used for the typography. Choosen font was Roboto with San Serif as a back up.
+1. [Bootstrap 5.3:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+   - Bootstrap was used to structure the website with focus on the use of grids
+1. [Boxicons:](https://boxicons.com/?query=)
+   - Boxicons was used for the social media icons in the footer
 1. [Font Awesome:](https://fontawesome.com/)
-   - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-   - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+   - Font Awesome was used on the links to attaract attention to them and for aestheics purposes
 1. [Git](https://git-scm.com/)
    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
    - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-   - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-   - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+
+
 
 ## Testing
 
