@@ -88,7 +88,7 @@ body {
 }
 
 .call-to-action:hover {
-  color: black;
+  color: rgb(224, 74, 74);
   background-color: rgb(6, 70, 6);
 }
 
@@ -178,7 +178,7 @@ form {
 }
 
 .colour-button:hover {
-  color: black;
+  color: rgb(224, 74, 74);
   background-color: darkgreen;
 }
 
@@ -186,6 +186,18 @@ form {
   padding: 10px;
   background-color: #a3320b;
   width: 50%;
+}
+
+/* FOOTER */
+
+.container .social-media {
+  /* Used flex to space the icons out evenly within the container */
+  display: flex;
+  justify-content: center;
+}
+.social-media a {
+  padding: 30px;
+  margin: 0 auto;
 }
 
 /* ALL MEDIA QUERIES */

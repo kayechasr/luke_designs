@@ -189,9 +189,9 @@ Part of the prep for this project; I quickly realised acquiring images that fit 
    - Photoshop was used to create the Logo and to adjust image background and size
 1. [Google Fonts:](https://fonts.google.com/)
    - Google fonts has been used for the typography. Choosen font was Roboto with San Serif as a back up.
-1. [Bootstrap 5.3:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap v5.3:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
    - Bootstrap was used to structure the website with focus on the use of grids
-1. [Boxicons:](https://boxicons.com/?query=)
+1. [Boxicons v2.1.4:](https://boxicons.com/?query=)
    - Boxicons was used for the social media icons in the footer
 1. [Font Awesome:](https://fontawesome.com/)
    - Font Awesome was used on the links to attaract attention to them and for aestheics purposes
