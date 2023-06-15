@@ -47,6 +47,7 @@ body {
 .menu a:hover {
   color: white;
   border-bottom: 1px solid #a3320b;
+  transition: 0.7s ease-out;
 }
 
 .menu a.active {
@@ -90,6 +91,7 @@ body {
 .call-to-action:hover {
   color: rgb(224, 74, 74);
   background-color: rgb(6, 70, 6);
+  transition: 0.7s ease-out;
 }
 
 /* ABOUT ME*/
@@ -188,16 +190,32 @@ form {
   width: 50%;
 }
 
-/* FOOTER */
+/* SOCIAL MEDIA ICONS */
 
 .container .social-media {
   /* Used flex to space the icons out evenly within the container */
   display: flex;
-  justify-content: center;
 }
+
+i {
+  color: #a3320b;
+}
+
+.social-media i:hover {
+  color: #fff;
+  transition: 0.7s ease-out;
+}
+
 .social-media a {
   padding: 30px;
   margin: 0 auto;
+}
+
+.container .copyright {
+  font-size: 13px;
+  color: grey;
+  text-align: center;
+  margin: 0;
 }
 
 /* ALL MEDIA QUERIES */
