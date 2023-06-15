@@ -58,22 +58,23 @@ body {
 /*HERO IMAGE */
 
 .hero-image {
-  width: 200%;
+  width: 105%;
   height: auto;
-  margin-top: 0px;
+  margin-left: 60px;
 }
 
 /* INTRO TEXT */
 
 .intro-text {
-  background-color: rgba(163, 50, 11, 0.8);
   color: #fff;
   font-size: 150%;
   font-weight: bold;
-  padding: 30px;
   text-transform: uppercase;
-  width: 400px;
-  margin-top: 240px;
+  margin-top: 150px;
+  background-color: rgba(163, 50, 11, 0.8);
+  padding: 30px;
+  height: 250px;
+  width: 350px;
 }
 
 .call-to-action {
@@ -203,12 +204,13 @@ i {
 
 .social-media i:hover {
   color: #fff;
-  transition: 0.7s ease-out;
+  transition: 0.5s ease-out;
 }
 
 .social-media a {
   padding: 30px;
   margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 .container .copyright {
@@ -246,8 +248,9 @@ i {
 /* HERO IMAGE & TEXT */
 @media (max-width: 943px) {
   .hero-image {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
+    margin-left: 0;
   }
 
   .col-lg-3 .intro-text {
@@ -265,7 +268,7 @@ i {
 
 /* ABOUT ME */
 
-@media (width <= 943px) {
+@media (max-width <= 943px) {
   .container {
     padding: 20px;
   }
@@ -284,14 +287,14 @@ i {
 }
 
 /* MY WORK */
-@media (width <= 943px) {
+@media (max-width <= 943px) {
   .gallery {
     padding: 5px;
   }
 }
 
 /* CONTACT PAGE */
-@media (width <= 943px) {
+@media (max-width <= 943px) {
   .form-background {
     width: 90%;
     padding: 5px;

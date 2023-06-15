@@ -176,12 +176,12 @@ Part of the prep for this project; I quickly realised acquiring images that fit 
 
 # Technologies Used
 
-#### Languages Used
+#### Languages
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs
 
 1. [Figma:](https://www.figma.com/)
    - Based on the rough pen skectches, Figma was used to create the initial and detialed wireframes before coding start
@@ -191,10 +191,12 @@ Part of the prep for this project; I quickly realised acquiring images that fit 
    - Google fonts has been used for the typography. Choosen font was Roboto with San Serif as a back up.
 1. [Bootstrap v5.3:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
    - Bootstrap was used to structure the website with focus on the use of grids
-1. [Boxicons v2.1.4:](https://boxicons.com/?query=)
-   - Boxicons was used for the social media icons in the footer
+1. [Animate On Scroll (AOS) v2.3.1:](https://michalsnik.github.io/aos/)
+   - AOS was used to animate images for a more asthestics and dynamic feel
 1. [Font Awesome:](https://fontawesome.com/)
-   - Font Awesome was used on the links to attaract attention to them and for aestheics purposes
+   - Font Awesome was used for social media icons
+1. [GitPod](https://www.gitpod.io/)
+   - GitPod was the choosen IDE for this project
 1. [Git](https://git-scm.com/)
    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
