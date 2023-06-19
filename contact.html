@@ -38,24 +38,26 @@
     <div>
         <br>
         <div class="container form-background" data-aos="flip-up">
-            <form>
+            <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
                 <div class="form-group ">
                     <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" aria-describedby="name">
+                    <input type="text" class="form-control" id="name" aria-describedby="name" name="name" required>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="email">
+                    <input type="email" class="form-control" id="email" name="email" aria-describedby="email" required>
                 </div>
                 <div class="form-group">
                     <label for="number">Number</label>
-                    <input type="number" class="form-control" id="number" aria-describedby="number">
+                    <input type="number" class="form-control" id="number" name="number" aria-describedby="number"
+                        required>
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea class="form-control" id="message" aria-describedby="message"></textarea>
-                    <small id="email-text" class="form-text colour-muted">We'll never share your details with anyone
+                    <textarea class="form-control" id="message" name="message" aria-describedby="message"
+                        required></textarea>
+                    <small id="text" class="form-text colour-muted">We'll never share your details with anyone
                         else!</small>
                 </div>
 
