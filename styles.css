@@ -143,6 +143,10 @@ body {
   padding-bottom: 20px;
 }
 
+.up-arrow {
+  display: none;
+}
+
 /* CONTACT FORM */
 .container .form-group {
   width: 50%;
@@ -283,7 +287,12 @@ i {
     padding: 5px;
   }
 
-  /* contact page */
+  .up-arrow {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Contact Page */
   .form-background {
     width: 90%;
     padding: 5px;
