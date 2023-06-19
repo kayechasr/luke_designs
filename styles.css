@@ -34,7 +34,7 @@ body {
 }
 
 .menu li {
-  float: right;
+  /* float: right; */
   margin-left: 30px;
 }
 
@@ -58,9 +58,9 @@ body {
 /*HERO IMAGE */
 
 .hero-image {
-  width: 105%;
+  width: 125%;
   height: auto;
-  margin-left: 60px;
+  /* margin-left: 60px; */
 }
 
 /* INTRO TEXT */
@@ -70,10 +70,10 @@ body {
   font-size: 150%;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 150px;
+  margin-top: 200px;
   background-color: rgba(163, 50, 11, 0.8);
   padding: 30px;
-  height: 250px;
+  /* height: 250px; */
   width: 350px;
 }
 
@@ -220,20 +220,18 @@ i {
   margin: 0;
 }
 
-/* ALL MEDIA QUERIES */
+/* ALL MEDIA QUERIES - USING THE NEW WAY TO WRITE MEDIA QUERY */
+/* YOUTUVE TUTORIAL - KEVIN POWELL - LINK IN READ ME FILE */
 
-/* LOGO */
-@media (max-width: 943px) {
+/* home */
+@media (320px < width < 819px) {
   .logo img {
     width: 130px;
     height: auto;
     margin-left: 120px;
     margin-top: 20px;
   }
-}
 
-/* NAVIGATION - MENU */
-@media (max-width: 943px) {
   .menu {
     clear: left;
     margin-bottom: 20px;
@@ -243,32 +241,26 @@ i {
     text-align: center;
     padding-top: 10px;
   }
-}
 
-/* HERO IMAGE & TEXT */
-@media (max-width: 943px) {
-  .hero-image {
-    /* width: 100%; */
-    height: auto;
-    margin-left: 0;
-  }
-
-  .col-lg-3 .intro-text {
+  .intro-text {
     margin-top: 40px;
     margin-left: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     width: 300px;
     text-align: center;
+    padding-top: 50px;
   }
 
   .col-lg-3 .call-to-action {
     margin-left: 0;
   }
-}
+  .hero-image {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
 
-/* ABOUT ME */
-
-@media (max-width <= 943px) {
+  /* About */
   .container {
     padding: 20px;
   }
@@ -284,17 +276,14 @@ i {
   .col-lg p {
     padding: 0;
   }
-}
 
-/* MY WORK */
-@media (max-width <= 943px) {
+  /* My work */
+
   .gallery {
     padding: 5px;
   }
-}
 
-/* CONTACT PAGE */
-@media (max-width <= 943px) {
+  /* contact page */
   .form-background {
     width: 90%;
     padding: 5px;
