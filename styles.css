@@ -181,10 +181,14 @@ body {
 .bio {
   color: #fff;
   text-align: center;
-  font-size: 12px;
-  padding: 30px;
+  font-size: 15px;
+  padding: 20px;
   background-color: #a3320b;
-  margin-top: 70px;
+  margin-top: 5px;
+}
+
+.welcome-message {
+  font-size: 30px;
 }
 
 .col-sm {
@@ -207,7 +211,7 @@ body {
   padding-left: 40px;
 }
 
-/* MY WORK */
+/* GALLERY */
 .gallery {
   width: 100%;
   height: auto;
@@ -406,7 +410,7 @@ i {
     padding: 0;
   }
 
-  /* My work */
+  /* Gallery */
 
   .gallery {
     padding: 5px;
