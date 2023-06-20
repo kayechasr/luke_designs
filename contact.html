@@ -15,22 +15,26 @@
 
 <body>
     <header>
-        <!-- Logo -->
-        <div class="logo">
-            <a href="index.html">
-                <img src="assets/images/logo_design.png" alt="logo design that reads Luke Designs">
-            </a>
-        </div>
+        <section class="top-nav">
 
-        <!-- Navigation Bar -->
-        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo_design.png" alt="logo design that reads Luke Designs">
+                </a>
+            </div>
+
+            <input id="menu-toggle" type="checkbox" class="toggler" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
             <ul class="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about_me.html">About Me</a></li>
-                <li><a href="my_work.html">My Work</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="#">My Work</a></li>
+                <li><a class="active" href="#">Contact</a></li>
             </ul>
-        </nav>
+
+        </section>
     </header>
 
     <!-- CONTACT FORM-->
