@@ -168,6 +168,16 @@ body {
   transition: 0.7s ease-out;
 }
 
+.line-break {
+  display: block;
+  margin-top: 2px;
+}
+
+.line-break-about {
+  display: block;
+  margin-top: 25px;
+}
+
 /* ABOUT ME*/
 .artist_details {
   margin-top: 20px;
