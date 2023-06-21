@@ -298,6 +298,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - Knowledge regarding how to write the new style of media query came from this tutorial - [here](https://www.youtube.com/watch?v=BvB8kSmgMcM)
 
 - [Bootstrap5](https://getbootstrap.com/docs/5.3/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- [Favicon](https://www.w3schools.com/html/html_favicon.asp): w3schools on how to add favicon to my website project
+
+
 
 
 ### Content & Media
