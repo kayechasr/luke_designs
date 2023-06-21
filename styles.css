@@ -264,7 +264,8 @@ form {
 
 .colour-button:hover {
   color: rgb(224, 74, 74);
-  background-color: darkgreen;
+  background-color: rgb(6, 70, 6);
+  transition: 0.7s ease-out;
 }
 
 .form-background {
