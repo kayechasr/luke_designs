@@ -76,7 +76,7 @@ The aim for first time visitors are:
 - To show his work to others in their circle and potential clients
 
  # **Strategic Tradeoffs**
--   ASSIGNED FIGURES TBC
+-   I was able to achieve my desired outcome without any major strategic trade offs.
 
 
 # **Design**
@@ -240,10 +240,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone12 Pro, Samsung Galaxy S20.
 - Testing was also carried out by friends and family and their reported buys were fix
 
-### Known Bugs
-
-- TBC
-
+# Bugs
+- After depressing the submit button, the content entered in the forms prior to submitting do not clear. Unless the clear button is depressed.
 
 # Deployment
 
