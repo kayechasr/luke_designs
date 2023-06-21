@@ -2,7 +2,7 @@
 
 # Luke Designs - Project - Website portfolio design for a digital illustrator
 
-[View the live project here.](TBC)
+[View the live project here.]( https://kayechasr.github.io/luke_designs/)
 
 This is my milestone project for the L5 Web Development Diploma with Code Institute. This project will have an heavy focus on User Centric Front End Development.
 
